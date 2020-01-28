@@ -189,4 +189,4 @@ Number of distinct site patterns: 57004
 
 All data from:
 
-Strassert,J.F. et al. (2019) New phylogenomic analysis of the enigmatic phy-lum Telonemia further resolves the eukaryote tree of life. Mol. Biol. Evol., 36, 757-765.
+Strassert,J.F. et al. (2019) New phylogenomic analysis of the enigmatic phylum Telonemia further resolves the eukaryote tree of life. Mol. Biol. Evol., 36, 757-765.
