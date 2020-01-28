@@ -52,27 +52,41 @@ in IQ-TREE using this file. Simply call IQ-TREE with the options:
 Le,S.Q. et al. (2008) Phylogenetic mixture models for proteins. Philos. Trans. Royal Soc. B, 363, 3965-3976.
 
 --------------------------------------------------------------------------------
-III. Excel files with amino acid exchangeabilities and other information
+III. Information about the models, including amino acid exchangeabilities
+
+Four excel spreadsheets, each of which either includes a "README" sheet or a text box with additional information:
 
 exchange_Pandey_Braun.xlsx -- 
+
 	Exchangeabilities for the "all sites" models, including normalized values and comparisons to
 	the symmetric EX matrix and matrices for changes in amino acid side-chain volume and polarity.
 	The minimum number of nucleotide substitutions necessary for various substitutions is also
 	provided in this spreadsheet.
 
 XB_exchange_Pandey_Braun.xlsx --
+
 	Similar to the "exchange_Pandey_Braun.xlsx" filed, but this file contains information about
 	the two sub-models of the XB mixture models.
 
 aa_freq_Pandey_Braun.xlsx --
+
 	Equilibrium amino acid frequencies estimated from each training set. This spreadsheet also
 	compares the differences between the frequencies for each XB sub-model and the "all sites" 
 	frequencies to amino acid side chain polarity. This was done to show that 
 
 EX_matrix_sym.xlsx --
-	Symmetric version of the Yampolsky and Stoltzfus (2005) experimental exchangeability matrix.
 
-NOTE: all of these excel spreadsheet include a "README" sheet or a text box with additional information.
+	Symmetric version of the Yampolsky and Stoltzfus (2005) experimental exchangeability matrix.
+	
+Two nexus format treefiles:
+
+clustered_exchange_Pandey_Braun.tre
+clustered_XBexchange_Pandey_Braun.tre
+
+Both treefiles include comments that will be echoed to the screen if they are executed in PAUP. They can also be visualized
+in programs like FigTree.
+
+Reference:
 
 Yampolsky,L.Y. and Stoltzfus,A. (2005) The exchangeability of amino acids in proteins. Genetics, 170, 1459-1472.
 
