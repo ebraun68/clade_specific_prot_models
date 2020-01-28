@@ -10,7 +10,7 @@ These models were generated to understand different patterns of protein sequence
 in various clades. The models can be used in phylogenetic analyses in IQ-TREE and other
 programs.
 
-################################################################################
+##################################################
 --------------------------------------------------------------------------------
 There are four sets of files in this repository:
 
@@ -107,7 +107,7 @@ More details about the pipeline can be found in:
 
 Pandey,A. and Braun,E.L. (2019) Phylogenetic analyses of sites in different protein structural environments result in distinct placements of the Metazo-an root. Preprints, 2019100302 http://doi.org/10.20944/preprints201910.0302.v1
 
-################################################################################
+##################################################
 --------------------------------------------------------------------------------
 Details regarding the training data
 
