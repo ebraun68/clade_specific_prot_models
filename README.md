@@ -83,8 +83,8 @@ Two nexus format treefiles:
 clustered_exchange_Pandey_Braun.tre
 clustered_XBexchange_Pandey_Braun.tre
 
-Both treefiles include comments that will be echoed to the screen if they are executed in PAUP. They can also be visualized
-in programs like FigTree.
+	Both treefiles include comments that will be echoed to the screen if they are executed in PAUP. They can also
+	be visualized in programs such as FigTree.
 
 Reference:
 
