@@ -11,7 +11,7 @@ in various clades. The models can be used in phylogenetic analyses in IQ-TREE an
 programs.
 
 ################################################################################
-This folder contains four sets of files:
+There are four sets of files in this repository:
 
 I. PAML format amino acid exchangeability matrices
 
