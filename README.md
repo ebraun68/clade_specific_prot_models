@@ -109,9 +109,7 @@ Pandey,A. and Braun,E.L. (2019) Phylogenetic analyses of sites in different prot
 
 ##################################################
 --------------------------------------------------------------------------------
-Details regarding the training and validation data
-
-All of the data are available from Zenodo:
+Details regarding the training and validation data (all of which are available from Zenodo):
 
 Brief summary of the training data:
 	  
