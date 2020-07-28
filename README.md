@@ -110,7 +110,9 @@ Pandey, A.; Braun, E.L. Phylogenetic Analyses of Sites in Different Protein Stru
 
 ##################################################
 --------------------------------------------------------------------------------
-Details regarding the training and validation data (all of which are available from Zenodo):
+Details regarding the training and validation data (all of which are available from Zenodo)
+
+Zenodo link: Pandey, Akanksha, & Braun, Edward L. (2020). Protein evolution is structure dependent and non-homogeneous across the tree of life. http://doi.org/10.5281/zenodo.3964471
 
 Brief summary of the training data:
 	  
