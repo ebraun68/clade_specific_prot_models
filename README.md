@@ -109,99 +109,35 @@ Pandey,A. and Braun,E.L. (2019) Phylogenetic analyses of sites in different prot
 
 ##################################################
 --------------------------------------------------------------------------------
-Details regarding the training data
+Details regarding the training and validation data
 
-All models were optimized using GTR20+FO+I+G4
+All of the data are available from Zenodo:
 
-****
-Bird1REV -- Training data:
+Brief summary of the training data:
+	  
+	Clade		# Proteins/Sites	# Taxa	Model	Citation
+	-----		----------------	------	-----	--------
+	Birds (1)	250/109,969		48	JTT	[26], [27]
+	Birds (2)	250/161,112		317	HIVb	[23]
+	Mammals		249/238,319		116	HIVb	[28]
+	Plants (1)	310/80,315		46	JTT	[29]
+	Oomycetes	277/83,312		17	LG	[30]
+	Yeasts		200/81,802		343	LG	[31]
+	All Euk (1)	248/58,469		149	LG	[32]
+	     
+Brief summary of the validation data:
 
-Input data: 48 sequences with 161122 amino-acid sites
-Number of constant sites: 99726 (= 61.8947% of all sites)
-Number of invariant (constant or ambiguous constant) sites: 99726 (= 61.8947% of all sites)
-Number of parsimony informative sites: 34784
-Number of distinct site patterns: 84348
+	-mdef XBmodels_PandeyBraun.nex -m <MODELNAME>
+	
+	MODELNAMES:
 
-250 proteins selected from:
-
-Jarvis,E.D. et al. (2014) Whole-genome analyses resolve early branches in the tree of life of modern birds. Science, 346, 1320-1331.
-Jarvis,E.D. et al. (2015) Phylogenomic analyses data of the avian phylo-genomics project. GigaScience 4:4.
-
-****
-Bird2REV -- Training data:
-
-Input data: 317 sequences with 111038 amino-acid sites
-Number of constant sites: 61445 (= 55.3369% of all sites)
-Number of invariant (constant or ambiguous constant) sites: 61445 (= 55.3369% of all sites)
-Number of parsimony informative sites: 38485
-Number of distinct site patterns: 70975
-
-All data from Prum et al. (2015), expanded to 317 taxa extracted from genome sequences using the script described in Reddy et al. (2017)
-
-Prum,R.O. et al. (2015) A comprehensive phylogeny of birds (Aves) using targeted next-generation DNA sequencing. Nature, 526, 569-573.
-Reddy,S. et al. (2017) Why do phylogenomic data sets yield conflicting trees? Data type influences the avian tree of life more than taxon sampling. Syst. Biol., 66, 857-879.
-
-****
-MamREV -- Training data:
-
-Input data: 116 sequences with 238319 amino-acid sites
-Number of constant sites: 114423 (= 48.0125% of all sites)
-Number of invariant (constant or ambiguous constant) sites: 114423 (= 48.0125% of all sites)
-Number of parsimony informative sites: 92889
-Number of distinct site patterns: 189543
-
-250 proteins selected from:
-
-Douzery,E.J. et al. (2014) OrthoMaM v8: A database of orthologous exons and coding sequences for comparative genomics in mammals. Mol. Biol. Evol., 31, 1923-1928.
-
-****
-PlantREV -- Training data:
-
-Input data: 46 sequences with 80315 amino-acid sites
-Number of constant sites: 26374 (= 32.8382% of all sites)
-Number of invariant (constant or ambiguous constant) sites: 26374 (= 32.8382% of all sites)
-Number of parsimony informative sites: 40822
-Number of distinct site patterns: 61058
-
-All data from:
-
-Xi,Z. et al. (2014) Coalescent versus concatenation methods and the placement of Amborella as sister to water lilies. Syst. Biol., 63, 919-932.
-
-****
-OomyceteREV -- Training data:
-
-Input data: 17 sequences with 83312 amino-acid sites
-Number of constant sites: 38417 (= 46.1122% of all sites)
-Number of invariant (constant or ambiguous constant) sites: 38417 (= 46.1122% of all sites)
-Number of parsimony informative sites: 33979
-Number of distinct site patterns: 35739
-
-Dataset 1, described on page p. 202 of:
-
-Ascunce,M.S. et al. (2017) Phylogenomic analysis supports multiple instances of polyphyly in the oomycete peronosporalean lineage. Mol. Phylogenet. Evol., 114, 199-211.
-
-****
-YeastREV -- Training data:
-
-Input data: 343 sequences with 81802 amino-acid sites
-Number of constant sites: 9509 (= 11.6244% of all sites)
-Number of invariant (constant or ambiguous constant) sites: 9509 (= 11.6244% of all sites)
-Number of parsimony informative sites: 68457
-Number of distinct site patterns: 76181
-
-277 proteins selected from:
-
-Shen,X.X. et al. (2018) Tempo and mode of genome evolution in the budding yeast subphylum. Cell, 175, 1533-1545.
-
-****
-EukREV -- Training data:
-
-Input data: 149 sequences with 58469 amino-acid sites
-Number of constant sites: 7415 (= 12.6819% of all sites)
-Number of invariant (constant or ambiguous constant) sites: 7415 (= 12.6819% of all sites)
-Number of parsimony informative sites: 46893
-Number of distinct site patterns: 57004
-
-All data from:
-
-Strassert,J.F. et al. (2019) New phylogenomic analysis of the enigmatic phylum Telonemia further resolves the eukaryote tree of life. Mol. Biol. Evol., 36, 757-765.
+     JarXB   = Bird 1 model
+     PrumXB  = Bird 2 model
+     MamXB   = Mammal model
+     OomyXB  = Oomycete model
+     PlantXB = Plant model
+     YeastXB = Yeast model
+     EukXB   = The "all Euk" model
+     EX2llg  = Identical to EX2 from Le et al. (2008), included for comparison
+     
+Le
