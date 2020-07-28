@@ -105,7 +105,8 @@ NOTE: we used the following pipeline to assign protein structures
 	
 More details about the pipeline can be found in:
 
-Pandey,A. and Braun,E.L. (2019) Phylogenetic analyses of sites in different protein structural environments result in distinct placements of the Metazoan root. Preprints, 2019100302 http://doi.org/10.20944/preprints201910.0302.v1
+Pandey, A.; Braun, E.L. Phylogenetic Analyses of Sites in Different Protein Structural Environments Result in Distinct Placements of the Metazoan Root. Biology 2020, 9, 64. https://doi.org/10.3390/biology9040064
+(also available in preprint for as: Preprints, 2019100302 http://doi.org/10.20944/preprints201910.0302.v1)
 
 ##################################################
 --------------------------------------------------------------------------------
