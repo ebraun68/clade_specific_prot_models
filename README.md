@@ -117,27 +117,43 @@ Brief summary of the training data:
 	  
 	Clade		# Proteins/Sites	# Taxa	Model	Citation
 	-----		----------------	------	-----	--------
-	Birds (1)	250/109,969		48	JTT	[26], [27]
-	Birds (2)	250/161,112		317	HIVb	[23]
-	Mammals		249/238,319		116	HIVb	[28]
-	Plants (1)	310/80,315		46	JTT	[29]
-	Oomycetes	277/83,312		17	LG	[30]
-	Yeasts		200/81,802		343	LG	[31]
-	All Euk (1)	248/58,469		149	LG	[32]
+	Birds (1)	250/109,969		48	JTT	[1], [2]
+	Birds (2)	250/161,112		317	HIVb	[3]
+	Mammals		249/238,319		116	HIVb	[4]
+	Plants (1)	310/80,315		46	JTT	[5]
+	Oomycetes	277/83,312		17	LG	[6]
+	Yeasts		200/81,802		343	LG	[7]
+	All Euk (1)	248/58,469		149	LG	[8]
 	     
 Brief summary of the validation data:
-
-	-mdef XBmodels_PandeyBraun.nex -m <MODELNAME>
-	
-	MODELNAMES:
-
-     JarXB   = Bird 1 model
-     PrumXB  = Bird 2 model
-     MamXB   = Mammal model
-     OomyXB  = Oomycete model
-     PlantXB = Plant model
-     YeastXB = Yeast model
-     EukXB   = The "all Euk" model
-     EX2llg  = Identical to EX2 from Le et al. (2008), included for comparison
+	  
+	Clade		# Proteins	# Taxa	Citation
+	-----		----------	------	--------
+	Birds (1)	200		48	[1], [2]
+	Mammals		200		116	[4]
+	Plants (2)	200		107	[9]
+	Oomycetes	150		15	[6]
+	Yeasts		200		343	[7]
+	All Euk (2)	149		104	[10]
      
-Le
+Citations for datasets:
+
+1. E. D. Jarvis, S. Mirarab, A. J. Aberer, B. Li, P. Houde, C. Li, S. Y. W. Ho, B. C. Faircloth, B. Nabholz, J. T. Howard, A. Suh, C. C. Weber, R. R. da Fonseca, J. Li, F. Zhang, H. Li, L. Zhou, N. Narula, L. Liu, G. Ganapathy, B. Boussau, Md. S. Bayzid, V. Zavidovych, S. Subramanian, T. Gabaldón, S. Capella-Gutiérrez, J. Huerta-Cepas, B. Rekepalli, K. Munch, M. Schierup, B. Lindow, W. C;.Warren, D. Ray, R. E Green, M. Bruford, X. Zhan, A. Dixon, S. Li, N. Li, Y. Huang, E. P. Derryberry, M. F. Bertelsen, F. Sheldon, R. T. Brumfield, C. Mello, P. V. Lovell, M. Wirthlin, J. A. Samaniego, A. M. V. Velazquez, A. Alfaro-Núñez, P. F. Campos, T. Sicheritz-Ponten, A. Pas, T .Bailey, P. Scofield, M. Bunce, D. Lambert, Q. Zhou, P. Perelman, A. C. Driskell, G. Ruby, B. Shapiro, Z. Xiong, Y. Zeng, S. Liu, Z. Li, B. Liu, K. Wu, J. Xiao, X. Yinqi, Q. Zheng, Y. Zhang, H. Yang, J. Wang, L. Smeds, F. E. Rheindt, M. Braun, J. Fjeldså, L. Orlando, K. Barker, K. A. Jønsson, W. Johnson, K.-P. Koepfli, S. O'Brien, D. Haussler, O. A. Ryder, C. Rahbek, E. Willerslev, G. R. Graves, T. C. Glenn, J. McCormack, D. Burt, H. Ellegren, P. Alström, S. V. Edwards, A. Stamatakis, D. P. Mindell, J. Cracraft, E. L. Braun, T. Warnow, Wang J., M. T. P. Gilbert, and G. Zhang, “Whole-genome analyses resolve early branches in the tree of life of modern birds.,” Science, vol. 346, no. 6215, pp. 1320–1331, Dec. 2014.
+
+2. E. D. Jarvis, S. Mirarab, A. J. Aberer, B. Li, P. Houde, C. Li, S. Y. W. Ho, B. C. Faircloth, B. Nabholz, J. T. Howard, A. Suh, C. C. Weber, R. R. da Fonseca, A. Alfaro-Núñez, N. Narula, L. Liu, D. Burt, H. Ellegren, S. V. Edwards, A. Stamatakis, D. P, Mindell, J. Cracraft, E. L. Braun, T. Warnow, Wang J., M. T. P. Gilbert, G. Zhang, and Avian Phylogenomics Consortium, “Phylogenomic analyses data of the avian phylogenomics project.,” Gigascience, vol. 4, p. 4, Feb. 2015.
+
+3. R. O. Prum, J. S. Berv, A. Dornburg, D. J. Field, J. P. Townsend, E. M. Lemmon, and A. R. Lemmon, “A comprehensive phylogeny of birds (Aves) using targeted next-generation DNA sequencing.,” Nature, vol. 526, no. 7574, pp. 569–573, Oct. 2015.
+
+4. E. J. P. Douzery, C. Scornavacca, J. Romiguier, K. Belkhir, N. Galtier, F. Delsuc, and V. Ranwez, “OrthoMaM v8: a database of orthologous exons and coding sequences for comparative genomics in mammals.,” Mol. Biol. Evol., vol. 31, no. 7, pp. 1923–1928, Jul. 2014.
+
+5. Z. Xi, L. Liu, J. S. Rest, and C. C. Davis, “Coalescent versus concatenation methods and the placement of Amborella as sister to water lilies.,” Syst. Biol., vol. 63, no. 6, pp. 919–932, Nov. 2014.
+
+6. M. S. Ascunce, J. C. Huguet-Tapia, A. Ortiz-Urquiza, N. O. Keyhani, E. L. Braun, and E. M. Goss, “Phylogenomic analysis supports multiple instances of polyphyly in the oomycete peronosporalean lineage.,” Mol. Phylogenet. Evol., vol. 114, pp. 199–211, Jun. 2017.
+
+7. X.-X. Shen, D. A. Opulente, J. Kominek, X. Zhou, J. L. Steenwyk, K. V. Buh, M. A. B. Haase, J. H. Wisecaver, M. Wang, D. T. Doering, J. T. Boudouris, R. M. Schneider, Q. K. Langdon, M. Ohkuma, R. Endoh, M. Takashima, R.-I. Manabe, N. Čadež, D. Libkind, C. A. Rosa, and A. Rokas, “Tempo and mode of genome evolution in the budding yeast subphylum.,” Cell, vol. 175, no. 6, pp. 1533-1545.e20, Nov. 2018.
+
+8. J. F. H. Strassert, M. Jamy, A. P. Mylnikov, D. V. Tikhonenkov, and F. Burki, “New phylogenomic analysis of the enigmatic phylum Telonemia further resolves the eukaryote tree of life.,” Mol. Biol. Evol., vol. 36, no. 4, pp. 757–765, Apr. 2019.
+
+9. N. J. Wickett, S. Mirarab, N. Nguyen, T. Warnow, E. Carpenter, N. Matasci, S. Ayyampalayam, M. S. Barker, J. G. Burleigh, M. A. Gitzendanner, B. R. Ruhfel, E. Wafula, J. P. Der, S. W. Graham, S. Mathews, M. Melkonian, D. E. Soltis, P. S. Soltis, N. W. Miles, C. J. Rothfels, L. Pokorny, A. Jonathan Shaw, L. DeGironimo, D. W. Stevenson, B. Surek, J. C. Villarreal, B. Roure, H. Philippe, C. W. dePamphilis, T. Chen, M. K. Deyholos, R. S. Baucom, T. M. Kutchan, M. M. Augustin, J. Wang, Y. Zhang, Z. Tian, Z. Yan, X. Wu, X. Sun, G. K.-S. Wong, and J. Leebens-Mack, “Phylotranscriptomic analysis of the origin and early diversification of land plants.,” Proc. Natl. Acad. Sci. USA, vol. 111, no. 45, pp. E4859-68, Nov. 2014.
+
+10. G. Lax, Y. Eglit, L. Eme, E. M. Bertrand, A. J. Roger, and A. G. B. Simpson, “Hemimastigophora is a novel supra-kingdom-level lineage of eukaryotes.,” Nature, vol. 564, no. 7736, pp. 410–414, Nov. 2018.
