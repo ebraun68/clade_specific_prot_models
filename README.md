@@ -3,8 +3,13 @@ Clade specific models of protein sequence evolution
 
 Files in this repository support:
 
+Pandey, A. and Braun, E.L. (2020). Protein evolution is structure dependent and non-homogeneous
+across the tree of life. In Proceedings of the 11th ACM International Conference on Bioinformatics, 
+Computational Biology and Health Informatics (pp. 1-11). https://doi.org/10.1145/3388440.3412473
+
+preprint version also available from bioRxiv:
 Pandey, A. and Braun, E.L. (2020) Protein evolution is structure dependent and non-homogeneous 
-across the tree of life. Submitted
+across the tree of life. bioRxiv 2020.01.28.923458; doi: https://doi.org/10.1101/2020.01.28.923458
 
 These models were generated to understand different patterns of protein sequence evolution
 in various clades. The models can be used in phylogenetic analyses in IQ-TREE and other
